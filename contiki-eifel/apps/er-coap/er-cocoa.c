@@ -174,7 +174,7 @@ coap_update_rtt_estimation(uip_ipaddr_t* transactionAddr, clock_time_t rtt, uint
 						t->rto[STRONGESTIMATOR] = COAP_INITIAL_RTO;
 						t->rttsmissed = 0;
 					}
-				t-rto[rttType]= 2*t->rto[rttType];
+				t->rto[rttType]= 2*t->rto[rttType];
 		    	}
 
 				t->rto[OVERALLESTIMATOR] = t->rto[rttType];

@@ -73,11 +73,11 @@ extern resource_t
   res_sub,
   res_b1_sep_b2;
 #if PLATFORM_HAS_LEDS
-extern resource_t res_leds, res_toggle;
+//extern resource_t res_leds, res_toggle;
 #endif
 #if PLATFORM_HAS_LIGHT
 #include "dev/light-sensor.h"
-extern resource_t res_light;
+//extern resource_t res_light;
 #endif
 #if PLATFORM_HAS_BATTERY
 #include "dev/battery-sensor.h"
@@ -118,10 +118,10 @@ PROCESS_THREAD(er_example_server, ev, data)
   PRINTF("PAN ID: 0x%04X\n", IEEE802154_PANID);
 #endif
 
-  PRINTF("uIP buffer: %u\n", UIP_BUFSIZE);
-  PRINTF("LL header: %u\n", UIP_LLH_LEN);
-  PRINTF("IP+UDP header: %u\n", UIP_IPUDPH_LEN);
-  PRINTF("REST max chunk: %u\n", REST_MAX_CHUNK_SIZE);
+  //PRINTF("uIP buffer: %u\n", UIP_BUFSIZE);
+  //PRINTF("LL header: %u\n", UIP_LLH_LEN);
+  //PRINTF("IP+UDP header: %u\n", UIP_IPUDPH_LEN);
+  //PRINTF("REST max chunk: %u\n", REST_MAX_CHUNK_SIZE);
 
   /* Initialize the REST engine. */
   rest_init_engine();
@@ -131,11 +131,11 @@ PROCESS_THREAD(er_example_server, ev, data)
    * WARNING: Activating twice only means alternate path, not two instances!
    * All static variables are the same for each URI path.
    */
-  rest_activate_resource(&res_hello, "test/hello");
+ // rest_activate_resource(&res_hello, "test/hello");
 /*  rest_activate_resource(&res_mirror, "debug/mirror"); */
 /*  rest_activate_resource(&res_chunks, "test/chunks"); */
 /*  rest_activate_resource(&res_separate, "test/separate"); */
-  rest_activate_resource(&res_push, "test/push");
+ // rest_activate_resource(&res_push, "test/push");
 /*  rest_activate_resource(&res_event, "sensors/button"); */
 /*  rest_activate_resource(&res_sub, "test/sub"); */
 /*  rest_activate_resource(&res_b1_sep_b2, "test/b1sepb2"); */
