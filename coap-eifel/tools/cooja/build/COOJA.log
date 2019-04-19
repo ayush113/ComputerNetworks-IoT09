@@ -1,0 +1,348 @@
+[01:48:23 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux_64.config
+[01:48:23 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/vishal/.cooja.user.properties
+[01:48:29 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [APPS_DIR]/mobility with /home/vishal/Desktop/contiki/tools/cooja/apps/mobility (default: ../../../tools/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:48:29 - Thread-0] [Cooja.java:3625] [WARN] - Loaded simulation may depend on not found  extension: '/home/vishal/Desktop/contiki/tools/cooja/apps/mobility'
+[01:48:29 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:48:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:48:29 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-client.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:48:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        er-example-client.c
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        ../../platform/z1/./contiki-z1-main.c
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   LD        er-example-client.z1
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> contiki-z1.a(er-coap-transac): In function `coap_check_transactions':
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/vishal/Desktop/contiki/examples/er-rest-example/../../apps/er-coap/er-coap-transactions.c:231: undefined reference to `calculateRTO'
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: ld returned 1 exit status
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> ../../Makefile.include:280: recipe for target 'er-example-client.z1' failed
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> make: *** [er-example-client.z1] Error 1
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm er-example-client.co obj_z1/contiki-z1-main.o
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[01:48:29 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[01:48:57 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [APPS_DIR]/mobility with /home/vishal/Desktop/contiki/tools/cooja/apps/mobility (default: ../../../tools/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:48:57 - Thread-0] [Cooja.java:3625] [WARN] - Loaded simulation may depend on not found  extension: '/home/vishal/Desktop/contiki/tools/cooja/apps/mobility'
+[01:48:57 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:48:57 - Thread-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:48:57 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-client.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:48:57 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        er-example-client.c
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        ../../platform/z1/./contiki-z1-main.c
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   LD        er-example-client.z1
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> contiki-z1.a(er-coap-transac): In function `coap_check_transactions':
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /home/vishal/Desktop/contiki/examples/er-rest-example/../../apps/er-coap/er-coap-transactions.c:230: undefined reference to `calculateRTO'
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: ld returned 1 exit status
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> make: *** [er-example-client.z1] Error 1
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> ../../Makefile.include:280: recipe for target 'er-example-client.z1' failed
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm er-example-client.co obj_z1/contiki-z1-main.o
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[01:48:57 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[01:52:22 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [APPS_DIR]/mobility with /home/vishal/Desktop/contiki/tools/cooja/apps/mobility (default: ../../../tools/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:52:22 - Thread-0] [Cooja.java:3625] [WARN] - Loaded simulation may depend on not found  extension: '/home/vishal/Desktop/contiki/tools/cooja/apps/mobility'
+[01:52:22 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:52:22 - Thread-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:52:22 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-client.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:52:22 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:52:22 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:52:22 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-server.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:52:22 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        ../../platform/z1/./contiki-z1-main.c
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   LD        er-example-server.z1
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: er-example-server.z1 section `.data' will not fit in region `rom'
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: section .vectors loaded at [000000000000ffc0,000000000000ffff] overlaps section .data loaded at [000000000000ffb8,000000000001017d]
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: region `rom' overflowed by 448 bytes
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: ld returned 1 exit status
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> ../../Makefile.include:280: recipe for target 'er-example-server.z1' failed
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> make: *** [er-example-server.z1] Error 1
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm er-example-server.co obj_z1/contiki-z1-main.o
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[01:52:22 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[01:53:49 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [APPS_DIR]/mobility with /home/vishal/Desktop/contiki/tools/cooja/apps/mobility (default: ../../../tools/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:53:49 - Thread-0] [Cooja.java:3625] [WARN] - Loaded simulation may depend on not found  extension: '/home/vishal/Desktop/contiki/tools/cooja/apps/mobility'
+[01:53:49 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:53:49 - Thread-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:53:49 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:53:49 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:53:50 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-server.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:53:50 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        er-example-server.c
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        ../../platform/z1/./contiki-z1-main.c
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   LD        er-example-server.z1
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: er-example-server.z1 section `.data' will not fit in region `rom'
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: section .vectors loaded at [000000000000ffc0,000000000000ffff] overlaps section .data loaded at [000000000000ffb8,000000000001017d]
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: region `rom' overflowed by 448 bytes
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: ld returned 1 exit status
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> ../../Makefile.include:280: recipe for target 'er-example-server.z1' failed
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm er-example-server.co obj_z1/contiki-z1-main.o
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[01:53:50 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[01:55:35 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [APPS_DIR]/mobility with /home/vishal/Desktop/contiki/tools/cooja/apps/mobility (default: ../../../tools/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:55:35 - Thread-0] [Cooja.java:3625] [WARN] - Loaded simulation may depend on not found  extension: '/home/vishal/Desktop/contiki/tools/cooja/apps/mobility'
+[01:55:35 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:55:35 - Thread-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:55:35 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:55:35 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:55:35 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-server.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:55:35 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   CC        ../../platform/z1/./contiki-z1-main.c
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >>   LD        er-example-server.z1
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: er-example-server.z1 section `.data' will not fit in region `rom'
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: section .vectors loaded at [000000000000ffc0,000000000000ffff] overlaps section .data loaded at [000000000000fe8a,000000000001004f]
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> /usr/lib/gcc/msp430/4.6.3/../../../../msp430/bin/ld: region `rom' overflowed by 146 bytes
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> collect2: ld returned 1 exit status
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> make: *** [er-example-server.z1] Error 1
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> ../../Makefile.include:280: recipe for target 'er-example-server.z1' failed
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> rm er-example-server.co obj_z1/contiki-z1-main.o
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:151] [FATAL] - >> Process returned error code 2
+[01:55:35 - Thread-0] [AbstractMspMoteType.java:154] [FATAL] - Compilation error: Bad return value
+[01:56:29 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [APPS_DIR]/mobility with /home/vishal/Desktop/contiki/tools/cooja/apps/mobility (default: ../../../tools/cooja/apps), but could not find it. This does not have to be an error, as the file might be created later.
+[01:56:29 - Thread-0] [Cooja.java:3625] [WARN] - Loaded simulation may depend on not found  extension: '/home/vishal/Desktop/contiki/tools/cooja/apps/mobility'
+[01:56:29 - Thread-0] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:56:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:56:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:56:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:56:29 - Thread-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/er-rest-example/er-example-server.z1 with /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1 (default: ../../..), but could not find it. This does not have to be an error, as the file might be created later.
+[01:56:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:56:29 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:56:30 - Thread-0] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:56:30 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/ipv6/rpl-border-router/border-router.z1
+[01:56:30 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:30 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:30 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:30 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:30 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:56:31 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1
+[01:56:32 - Thread-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[01:56:32 - Thread-0] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[01:56:32 - Thread-0] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[01:56:33 - Thread-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[01:56:33 - Thread-0] [LogScriptEngine.java:265] [INFO] - Script timeout in 3600000 ms
+[01:56:33 - Thread-0] [ScriptRunner.java:387] [INFO] - Test script activated
+[01:57:15 - Thread-6] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[01:57:15 - Thread-8] [LogScriptEngine.java:309] [INFO] - Test script finished
+[01:57:15 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[01:57:15 - Thread-9] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:57:15 - Thread-9] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:57:15 - Thread-9] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:57:15 - Thread-9] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:57:16 - Thread-9] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:57:16 - Thread-9] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:57:16 - Thread-9] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:57:16 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/ipv6/rpl-border-router/border-router.z1
+[01:57:16 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:17 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:57:18 - Thread-9] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1
+[01:57:18 - Thread-9] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[01:57:18 - Thread-9] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[01:57:19 - Thread-9] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[01:57:19 - Thread-9] [LogScriptEngine.java:265] [INFO] - Script timeout in 3600000 ms
+[01:57:19 - Thread-9] [ScriptRunner.java:387] [INFO] - Test script activated
+[01:57:41 - Thread-12] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
+[01:57:41 - Thread-10] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
+[01:57:47 - Thread-13] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1555619267060
+[01:57:52 - AWT-EventQueue-0] [PcapExporter.java:36] [INFO] - Opened pcap file radiolog-1555619272305.pcap
+[01:58:11 - Thread-13] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 986.6 sec
+[01:58:11 - Thread-13] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1555619291638	Duration: 24578 ms	Simulated time 184720 ms	Ratio 7.515664415330783
+[01:59:27 - Thread-10] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[01:59:27 - Thread-12] [SerialSocketServer.java:497] [INFO] - Socket closed
+[01:59:27 - Thread-12] [SerialSocketServer.java:501] [INFO] - End of Stream
+[01:59:27 - Thread-11] [LogScriptEngine.java:309] [INFO] - Test script finished
+[01:59:27 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[01:59:27 - Thread-14] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[01:59:27 - Thread-14] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[01:59:27 - Thread-14] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:59:27 - Thread-14] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:59:28 - Thread-14] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:59:28 - Thread-14] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[01:59:28 - Thread-14] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[01:59:28 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/ipv6/rpl-border-router/border-router.z1
+[01:59:28 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:29 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[01:59:30 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1
+[01:59:30 - Thread-14] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[01:59:30 - Thread-14] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[01:59:30 - Thread-14] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[01:59:30 - Thread-14] [LogScriptEngine.java:265] [INFO] - Script timeout in 3600000 ms
+[01:59:30 - Thread-14] [ScriptRunner.java:387] [INFO] - Test script activated
+[01:59:33 - Thread-17] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1555619373054
+[01:59:37 - AWT-EventQueue-0] [PcapExporter.java:36] [INFO] - Opened pcap file radiolog-1555619377723.pcap
+[01:59:42 - Thread-15] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
+[01:59:42 - Thread-18] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
+[01:59:53 - Thread-17] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 429.6 sec
+[02:00:08 - Thread-17] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 335.7 sec
+[02:00:11 - Thread-17] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1555619411474	Duration: 38420 ms	Simulated time 401388 ms	Ratio 10.447371160853722
+[02:01:52 - Thread-19] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1555619512448
+[02:02:02 - Thread-19] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 857.8 sec
+[02:02:11 - Thread-19] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1555619531128	Duration: 18681 ms	Simulated time 656892 ms	Ratio 35.16364220330817
+[02:02:11 - Thread-15] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[02:02:11 - Thread-18] [SerialSocketServer.java:497] [INFO] - Socket closed
+[02:02:11 - Thread-18] [SerialSocketServer.java:501] [INFO] - End of Stream
+[02:02:11 - Thread-16] [LogScriptEngine.java:309] [INFO] - Test script finished
+[02:02:11 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[02:02:11 - Thread-20] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[02:02:11 - Thread-20] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[02:02:12 - Thread-20] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[02:02:12 - Thread-20] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[02:02:12 - Thread-20] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[02:02:12 - Thread-20] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[02:02:12 - Thread-20] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[02:02:12 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/ipv6/rpl-border-router/border-router.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:13 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:14 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:14 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:02:14 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1
+[02:02:14 - Thread-20] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[02:02:15 - Thread-20] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[02:02:15 - Thread-20] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[02:02:15 - Thread-20] [LogScriptEngine.java:265] [INFO] - Script timeout in 3600000 ms
+[02:02:15 - Thread-20] [ScriptRunner.java:387] [INFO] - Test script activated
+[02:02:21 - Thread-21] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
+[02:02:21 - Thread-23] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
+[02:02:24 - Thread-24] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1555619544289
+[02:02:28 - AWT-EventQueue-0] [PcapExporter.java:36] [INFO] - Opened pcap file radiolog-1555619548978.pcap
+[02:02:47 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 620.4 sec
+[02:03:01 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 415.6 sec
+[02:03:14 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 337.5 sec
+[02:03:27 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 288.0 sec
+[02:03:40 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 255.6 sec
+[02:03:53 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 229.5 sec
+[02:04:05 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 205.5 sec
+[02:04:19 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 186.6 sec
+[02:04:32 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 167.6 sec
+[02:04:44 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 149.5 sec
+[02:04:58 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 133.5 sec
+[02:05:11 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 117.3 sec
+[02:05:25 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 102.2 sec
+[02:05:38 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 86.9 sec
+[02:05:50 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 71.9 sec
+[02:06:03 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 57.1 sec
+[02:06:16 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 42.6 sec
+[02:06:29 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 28.3 sec
+[02:06:42 - Thread-24] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 14.1 sec
+[02:06:55 - Thread-24] [LogScriptEngine.java:375] [INFO] - Timeout event @ 3600000000
+[02:06:55 - Thread-22] [LogScriptEngine.java:309] [INFO] - Test script finished
+[02:06:55 - Thread-24] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1555619815690	Duration: 271401 ms	Simulated time 3600000 ms	Ratio 13.264505289221484
+[02:10:57 - Thread-21] [SerialSocketServer.java:429] [INFO] - Listening thread shut down: Socket closed
+[02:10:57 - Thread-23] [SerialSocketServer.java:497] [INFO] - Socket closed
+[02:10:57 - Thread-23] [SerialSocketServer.java:501] [INFO] - End of Stream
+[02:10:57 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[02:10:57 - Thread-25] [Simulation.java:422] [INFO] - Simulation random seed: 123457
+[02:10:57 - Thread-25] [CompileContiki.java:140] [INFO] - > make border-router.z1 TARGET=z1 
+[02:10:57 - Thread-25] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[02:10:57 - Thread-25] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[02:10:58 - Thread-25] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[02:10:58 - Thread-25] [CompileContiki.java:140] [INFO] - > make er-example-client.z1 TARGET=z1 
+[02:10:58 - Thread-25] [CompileContiki.java:140] [INFO] - > make er-example-server.z1 TARGET=z1 
+[02:10:58 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/ipv6/rpl-border-router/border-router.z1
+[02:10:58 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:10:59 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-client.z1
+[02:11:00 - Thread-25] [MspMote.java:235] [INFO] - Loading firmware from: /home/vishal/Desktop/contiki/examples/er-rest-example/er-example-server.z1
+[02:11:00 - Thread-25] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[02:11:00 - Thread-25] [SerialSocketServer.java:389] [INFO] - Listening on port: 60001
+[02:11:01 - Thread-25] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[02:11:01 - Thread-25] [LogScriptEngine.java:265] [INFO] - Script timeout in 3600000 ms
+[02:11:01 - Thread-25] [ScriptRunner.java:387] [INFO] - Test script activated
+[02:11:06 - Thread-26] [SerialSocketServer.java:425] [INFO] - Client connected: /127.0.0.1
+[02:11:06 - Thread-28] [SerialSocketServer.java:478] [INFO] - Forwarder: socket -> serial port
+[02:11:08 - Thread-29] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1555620068635
+[02:11:13 - AWT-EventQueue-0] [PcapExporter.java:36] [INFO] - Opened pcap file radiolog-1555620073277.pcap
+[02:11:31 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 573.9 sec
+[02:11:44 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 393.4 sec
+[02:11:58 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 324.0 sec
+[02:12:10 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 278.7 sec
+[02:12:23 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 246.8 sec
+[02:12:36 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 223.1 sec
+[02:12:49 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 200.8 sec
+[02:13:01 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 180.8 sec
+[02:13:14 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 163.4 sec
+[02:13:27 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 146.5 sec
+[02:13:40 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 130.4 sec
+[02:13:55 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 116.3 sec
+[02:14:08 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 100.8 sec
+[02:14:21 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 85.7 sec
+[02:14:33 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 70.7 sec
+[02:14:46 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 56.3 sec
+[02:14:59 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 42.0 sec
+[02:15:12 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 27.9 sec
+[02:15:24 - Thread-29] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 13.9 sec
+[02:15:37 - Thread-29] [LogScriptEngine.java:375] [INFO] - Timeout event @ 3600000000
+[02:15:37 - Thread-27] [LogScriptEngine.java:309] [INFO] - Test script finished
+[02:15:37 - Thread-29] [Simulation.java:312] [INFO] - Simulation main loop stopped, system time: 1555620337410	Duration: 268775 ms	Simulated time 3600000 ms	Ratio 13.394102874151242
