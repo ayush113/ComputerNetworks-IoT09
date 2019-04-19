@@ -14,4 +14,4 @@ fixes some of the problems with the retransmission timer that TCP uses.
 
 #### Project Details :
 1. **[Overview](https://github.com/ayush113/ComputerNetworks-IoT09/wiki/Overview-of-Eifel-Retransmission-Timer)**<br/>
-2. **[Implementation](../docs/Implementation.md)**<br/>
+2. **[Implementation](Implementation.md)**<br/>
