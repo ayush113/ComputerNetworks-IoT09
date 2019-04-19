@@ -13,7 +13,7 @@ fixes some of the problems with the retransmission timer that TCP uses.
 
 
 #### Project Details :
-1. **[Overview](https://github.com/ayush113/ComputerNetworks-IoT09/wiki/Overview-of-Eifel-Retransmission-Timer)**<br/>
+1. **[Overview](Overview.md)**<br/>
 2. **[Implementation](Implementation.md)**<br/>
 3. **[Issues Faced](Issues.md)**<br/>
 4. **[Results](Results.md)**<br/>
